@@ -1,0 +1,2745 @@
+{
+  "id": "3d2c9b05-dfbc-4438-a31a-fe21eda0986c",
+  "version": "2.0",
+  "name": "TestForWebPharmaKids",
+  "url": "https://nhathuocnhikhoa.vn",
+  "tests": [{
+    "id": "4ccbe98f-e160-4adc-b59e-03dcd795c6ff",
+    "name": "MODULE1_01",
+    "commands": [{
+      "id": "8ccc5467-3f83-4493-85a5-9c296bfea30f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8a67451-07d0-451f-9956-9ddf5d9a0287",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a64d2f2f-d7c6-4bca-89d6-376cd5ec4394",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/login')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8ac66c2-944f-4908-9f1d-6f7c5da0737a",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul[2]/li/div/input", "xpath:idRelative"],
+        ["xpath=//li/div/input", "xpath:position"]
+      ],
+      "value": "0978478178"
+    }, {
+      "id": "133cce46-d7ff-4747-9d9e-751fdae021ee",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul[2]/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "19212cd6-6579-40fd-8f2a-1583a2c4bbb7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-login > span > span",
+      "targets": [
+        ["css=.btn-login > span > span", "css:finder"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca0edcc8-cf99-45af-a5bb-5f8107b4839f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Chào @#$%", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Chào @#$%')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Chào @#$%')]", "xpath:innerText"]
+      ],
+      "value": " Chào @#$% "
+    }, {
+      "id": "dd0d6ae1-68e0-4ccc-92ac-418c07ae2985",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Chào @#$%", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Chào @#$%')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Chào @#$%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34da3c95-752c-4228-85b5-c45ddb0bb4cd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng xuất",
+      "targets": [
+        ["linkText=Đăng xuất", "linkText"],
+        ["css=.form-menu > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng xuất')]", "xpath:link"],
+        ["xpath=//div[@id='em-account-login-form']/div/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/logout')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "873f574c-f036-41db-b08d-6d9e8889aaba",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4539ba41-dadf-4a34-a8d4-9f5bd8424329",
+    "name": "MODULE1_02",
+    "commands": [{
+      "id": "db47a94b-18b1-425e-8310-9bbabb8315ab",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60c30966-6bea-45f0-a5e6-193f02844aaa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f439181c-2551-4ba8-b46a-016d936b7357",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/login')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b784871-b266-4933-8f21-ba75dc26ab8a",
+      "comment": "",
+      "command": "//type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "0978478178"
+    }, {
+      "id": "1764cdae-f7e8-4495-b3e5-f7df50fe7b8b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul[2]/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "4e04cd6e-b20f-4941-9092-81a7850cb119",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-login > span > span",
+      "targets": [
+        ["css=.btn-login > span > span", "css:finder"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "530d839b-bbc8-40ca-aa69-506eef2cbe32",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert li",
+      "targets": [
+        ["css=.alert li", "css:finder"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li/div/ul/li", "xpath:idRelative"],
+        ["xpath=//li/div/ul/li", "xpath:position"]
+      ],
+      "value": "Bạn chưa nhập số điện thoại"
+    }, {
+      "id": "91a9a758-26cb-421d-90dc-0d4eb97d0670",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8d904f5c-be10-4b27-b1e8-3b7d72956151",
+    "name": "MODULE1_03",
+    "commands": [{
+      "id": "5db464c5-72ad-47e6-81f3-5899da31854a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f8e1976-ee64-42e8-a015-56169ee67064",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd4255d8-9c21-4e66-8704-6bb44bf5092f",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/login')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c327f900-12fc-4130-b9c3-8d86a6a79860",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "0978478178"
+    }, {
+      "id": "26756754-dbd2-434d-82f4-12e97a4b4f7d",
+      "comment": "",
+      "command": "//type",
+      "target": "id=password",
+      "targets": [],
+      "value": "12345678"
+    }, {
+      "id": "856fb797-dbb6-4be8-a0b1-34de0bc1586a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-login > span > span",
+      "targets": [
+        ["css=.btn-login > span > span", "css:finder"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18a66744-cc6b-43da-8f2b-20c0dc211518",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert li",
+      "targets": [
+        ["css=.alert li", "css:finder"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li/div/ul/li", "xpath:idRelative"],
+        ["xpath=//li/div/ul/li", "xpath:position"]
+      ],
+      "value": "Bạn chưa nhập mật khẩu"
+    }, {
+      "id": "495112c6-4c93-40bd-b7c4-0a62ac9ca24a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "02cf8ad1-bd6d-4585-bc6d-8c3295caf918",
+    "name": "MODULE1_04",
+    "commands": [{
+      "id": "8393c690-9feb-4ad4-86f4-2dac931a5ece",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d80162ac-7a0a-4828-8fac-20b6beb6b0e0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a5b0fd7-74ee-4079-8f14-68c9bb769669",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/login')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9be74c43-52e7-42d4-a73b-4a91b8bbd3ad",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "0987654321"
+    }, {
+      "id": "f0a2cd25-7e86-43d6-9da8-a3a58820cbbd",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [],
+      "value": "12345678"
+    }, {
+      "id": "6d820fe9-0bf4-4937-8f96-e5907db1208e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-login > span > span",
+      "targets": [
+        ["css=.btn-login > span > span", "css:finder"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "220de33d-f4f9-4179-964e-104c219ab100",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert li",
+      "targets": [
+        ["css=.alert li", "css:finder"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li/div/ul/li", "xpath:idRelative"],
+        ["xpath=//li/div/ul/li", "xpath:position"]
+      ],
+      "value": "Sai tài khoản hoặc mật khẩu!"
+    }, {
+      "id": "7e9e325b-15db-4d2a-838a-d48284e6561e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f80dd909-3e1d-488f-b2a3-905b2bd56bae",
+    "name": "MODULE1_05",
+    "commands": [{
+      "id": "eef19e73-c989-4a3a-9238-287b4550fc3d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3aed50b8-7582-4f43-928b-cd1f9cb72037",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "974acd9b-8352-4531-b8d4-e33a4c3f24b9",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/login')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c555a3f7-93ed-4857-ad6e-683359d40dae",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "0978478178"
+    }, {
+      "id": "9a97e4b3-0728-4592-9355-4e68545d4d1f",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [],
+      "value": "0987654321"
+    }, {
+      "id": "2fe6ed27-602c-4f89-a423-bfcd2129b73c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-login > span > span",
+      "targets": [
+        ["css=.btn-login > span > span", "css:finder"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ce898ef-bf46-4e89-a2d4-59951b4eab0c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert li",
+      "targets": [
+        ["css=.alert li", "css:finder"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li/div/ul/li", "xpath:idRelative"],
+        ["xpath=//li/div/ul/li", "xpath:position"]
+      ],
+      "value": "Sai tài khoản hoặc mật khẩu!"
+    }, {
+      "id": "811f36e9-5f70-4e56-bc22-261ed34f5a22",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3ac62e9b-bf3e-411c-92fc-df2824175040",
+    "name": "MODULE1_06",
+    "commands": [{
+      "id": "1ad244b6-ce55-4327-a710-cd23d9e5d304",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a9e167c-f751-47c8-b269-0c796af749e0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a896530-212b-43b8-8bfb-3b5c6bbe297d",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/login')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad54aaa2-635a-4113-8aa8-e81c797b8c6a",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "0987654321"
+    }, {
+      "id": "7970b1f5-7f3a-47d1-94aa-c3916df38118",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [],
+      "value": "0987654321"
+    }, {
+      "id": "458ee738-b6b2-4332-a8ca-d3bbc385339b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-login > span > span",
+      "targets": [
+        ["css=.btn-login > span > span", "css:finder"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16203856-d4d6-4bcc-8714-e304f88a5a89",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert li",
+      "targets": [
+        ["css=.alert li", "css:finder"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul/li/div/ul/li", "xpath:idRelative"],
+        ["xpath=//li/div/ul/li", "xpath:position"]
+      ],
+      "value": "Sai tài khoản hoặc mật khẩu!"
+    }, {
+      "id": "4263bd1a-4757-48b9-9435-14ca0a661b1f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "bb7fd807-f9da-426c-a502-9ce25b23a68f",
+    "name": "MODULE2_01",
+    "commands": [{
+      "id": "d708a4f7-5513-4823-a1bf-c3d2268b3be5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "704f7536-7bed-42c4-baf7-30bbed2bb6d4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1036x857",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a88e4641-fe98-4c52-bd51-0dc66783e946",
+      "comment": "",
+      "command": "click",
+      "target": "css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image",
+      "targets": [
+        ["css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image", "css:finder"],
+        ["xpath=//div[@id='em_fashion_new_arrivals_tab01']/div/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://nhathuocnhikhoa.vn/san-pham/novellzamel-1681792425')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "caa88ad6-33e5-4ecd-90b1-3eae5b15d233",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=product-addtocart-button",
+      "targets": [
+        ["id=product-addtocart-button", "id"],
+        ["css=#product-addtocart-button", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']", "xpath:attributes"],
+        ["xpath=//div[@id='em-product-info-basic']/div[7]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm vào giỏ hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e63d95ed-a420-4ed6-b4e7-84aaad2763dd",
+      "comment": "",
+      "command": "//type",
+      "target": "id=qty",
+      "targets": [],
+      "value": "1"
+    }, {
+      "id": "d8a14020-984f-421c-893e-0af197e7ccc0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product-addtocart-button > span > span",
+      "targets": [
+        ["css=#product-addtocart-button > span > span", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']/span/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff1f5f84-9d6f-47c5-93e3-a92d6e7b2fba",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.swal-text",
+      "targets": [],
+      "value": "Sản phẩm của bạn đã được thêm vào giỏ hàng"
+    }, {
+      "id": "165d14a5-f68d-4bf1-8354-daffbaaab744",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4ad4ca19-a44c-49c7-984e-a5c71403810c",
+    "name": "MODULE2_02",
+    "commands": [{
+      "id": "003c9228-046d-4a5a-84a8-49def631d17c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8486848-0a58-494a-ad83-fe6a851a88dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1036x857",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9c0946e-3e0f-45cf-81cf-77ea6cfab691",
+      "comment": "",
+      "command": "click",
+      "target": "css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image",
+      "targets": [
+        ["css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image", "css:finder"],
+        ["xpath=//div[@id='em_fashion_new_arrivals_tab01']/div/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://nhathuocnhikhoa.vn/san-pham/novellzamel-1681792425')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4764feb9-023a-4609-926e-1422070048ba",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=product-addtocart-button",
+      "targets": [
+        ["id=product-addtocart-button", "id"],
+        ["css=#product-addtocart-button", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']", "xpath:attributes"],
+        ["xpath=//div[@id='em-product-info-basic']/div[7]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm vào giỏ hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b137fc76-510b-4b3f-a2f3-97e4ea46d12b",
+      "comment": "",
+      "command": "type",
+      "target": "id=qty",
+      "targets": [
+        ["id=qty", "id"],
+        ["name=qty", "name"],
+        ["css=#qty", "css:finder"],
+        ["xpath=//input[@id='qty']", "xpath:attributes"],
+        ["xpath=//div[@id='em-product-info-basic']/div[7]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/input", "xpath:position"]
+      ],
+      "value": "abc"
+    }, {
+      "id": "b648080f-4054-4dd4-8130-1fa0486c4ad6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product-addtocart-button > span > span",
+      "targets": [
+        ["css=#product-addtocart-button > span > span", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']/span/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bb1532c-15d6-4d46-babc-4e8c3da148d7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.swal-text",
+      "targets": [],
+      "value": "Số lượng sản phẩm không hợp lệ!"
+    }, {
+      "id": "cb88194c-c17a-4acf-a32e-f510fe78d0fd",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d9ec34f6-443c-4de9-9819-4d71390140da",
+    "name": "MODULE2_03",
+    "commands": [{
+      "id": "4c130c7b-2567-478c-b88e-8514ff9465ba",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0f793350-985d-4e50-bdac-f984bcc511da",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1036x857",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73dcdef5-43fa-48d6-b145-df163558268d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image",
+      "targets": [
+        ["css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image", "css:finder"],
+        ["xpath=//div[@id='em_fashion_new_arrivals_tab01']/div/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://nhathuocnhikhoa.vn/san-pham/novellzamel-1681792425')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b361bdea-1d2d-4809-aee9-075d401af895",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=product-addtocart-button",
+      "targets": [
+        ["id=product-addtocart-button", "id"],
+        ["css=#product-addtocart-button", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']", "xpath:attributes"],
+        ["xpath=//div[@id='em-product-info-basic']/div[7]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm vào giỏ hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c63b790f-59db-4239-a662-bebee676f77c",
+      "comment": "",
+      "command": "type",
+      "target": "id=qty",
+      "targets": [
+        ["id=qty", "id"],
+        ["name=qty", "name"],
+        ["css=#qty", "css:finder"],
+        ["xpath=//input[@id='qty']", "xpath:attributes"],
+        ["xpath=//div[@id='em-product-info-basic']/div[7]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/input", "xpath:position"]
+      ],
+      "value": "   "
+    }, {
+      "id": "cabfd018-11ec-4e24-a8d4-c676a270fc07",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product-addtocart-button > span > span",
+      "targets": [
+        ["css=#product-addtocart-button > span > span", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']/span/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8281e45-7dca-456e-8108-9171d16554ff",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.swal-text",
+      "targets": [],
+      "value": "Số lượng sản phẩm không hợp lệ!"
+    }, {
+      "id": "e2b89ca8-c22c-4079-9135-eb044e1e6445",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4b01069b-a271-488e-a4e2-bcdef77585d0",
+    "name": "MODULE2_04",
+    "commands": [{
+      "id": "d868af2d-ef6d-44f2-b2eb-4aaf6fae5b8c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d177904-8fd3-45f8-bf78-3f77568f18fb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1036x857",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "846dd839-b19d-41dc-b085-ebbe10f71fe8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image",
+      "targets": [
+        ["css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image", "css:finder"],
+        ["xpath=//div[@id='em_fashion_new_arrivals_tab01']/div/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://nhathuocnhikhoa.vn/san-pham/novellzamel-1681792425')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62b1da9d-92e7-40d5-9011-e8e15218ad5c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=product-addtocart-button",
+      "targets": [
+        ["id=product-addtocart-button", "id"],
+        ["css=#product-addtocart-button", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']", "xpath:attributes"],
+        ["xpath=//div[@id='em-product-info-basic']/div[7]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm vào giỏ hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a75faa63-bcd7-4e3b-b2a6-21c19ba529e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=qty",
+      "targets": [
+        ["id=qty", "id"],
+        ["name=qty", "name"],
+        ["css=#qty", "css:finder"],
+        ["xpath=//input[@id='qty']", "xpath:attributes"],
+        ["xpath=//div[@id='em-product-info-basic']/div[7]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/input", "xpath:position"]
+      ],
+      "value": "@#$"
+    }, {
+      "id": "1fcfcde8-1601-4bb5-aba7-510d7f498c1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product-addtocart-button > span > span",
+      "targets": [
+        ["css=#product-addtocart-button > span > span", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']/span/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00635bf2-40bd-4436-890e-a7301f059327",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.swal-text",
+      "targets": [],
+      "value": "Số lượng sản phẩm không hợp lệ!"
+    }, {
+      "id": "302a14da-4af8-4b71-9f30-57705fcdd626",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2fee939f-b0af-4a5c-9e13-23ab8a119b20",
+    "name": "MODULE2_05",
+    "commands": [{
+      "id": "e5959e9b-4b9c-4127-92bd-7138fc7f175d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a453553-b5e7-40d2-b07c-a444ad39c882",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1036x857",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9c0b7d6-00f2-4e38-825d-454619f1c547",
+      "comment": "",
+      "command": "click",
+      "target": "css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image",
+      "targets": [
+        ["css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image", "css:finder"],
+        ["xpath=//div[@id='em_fashion_new_arrivals_tab01']/div/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://nhathuocnhikhoa.vn/san-pham/novellzamel-1681792425')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "256beb77-2efb-4a58-8263-13a04208a8dd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=product-addtocart-button",
+      "targets": [
+        ["id=product-addtocart-button", "id"],
+        ["css=#product-addtocart-button", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']", "xpath:attributes"],
+        ["xpath=//div[@id='em-product-info-basic']/div[7]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm vào giỏ hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bca33874-1490-4028-9074-c45a0cb09494",
+      "comment": "",
+      "command": "type",
+      "target": "id=qty",
+      "targets": [
+        ["id=qty", "id"],
+        ["name=qty", "name"],
+        ["css=#qty", "css:finder"],
+        ["xpath=//input[@id='qty']", "xpath:attributes"],
+        ["xpath=//div[@id='em-product-info-basic']/div[7]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4639a91-8d0b-40e1-99c2-4bf13ff81ae0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product-addtocart-button > span > span",
+      "targets": [
+        ["css=#product-addtocart-button > span > span", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']/span/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0be2494-dec4-4345-9984-b0a46bd6146e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.swal-text",
+      "targets": [],
+      "value": "Số lượng sản phẩm không hợp lệ!"
+    }, {
+      "id": "9a597f21-38c4-4ab9-a068-da572e5a737e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "80e8c509-3d49-4859-b8c2-4251335f160b",
+    "name": "MODULE2_06",
+    "commands": [{
+      "id": "4002fa77-714f-4e75-9992-e80831d97391",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc88a7af-854a-4a59-a00b-f7d495efdee4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1036x857",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2169435a-2025-4796-a4be-f8ad951f83af",
+      "comment": "",
+      "command": "click",
+      "target": "css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image",
+      "targets": [
+        ["css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image", "css:finder"],
+        ["xpath=//div[@id='em_fashion_new_arrivals_tab01']/div/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://nhathuocnhikhoa.vn/san-pham/novellzamel-1681792425')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce39b1ac-aa01-413e-b96d-f9289bf8a4d0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=product-addtocart-button",
+      "targets": [
+        ["id=product-addtocart-button", "id"],
+        ["css=#product-addtocart-button", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']", "xpath:attributes"],
+        ["xpath=//div[@id='em-product-info-basic']/div[7]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm vào giỏ hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f391c55-9525-4c87-b7f3-28cdd922f355",
+      "comment": "",
+      "command": "type",
+      "target": "id=qty",
+      "targets": [
+        ["id=qty", "id"],
+        ["name=qty", "name"],
+        ["css=#qty", "css:finder"],
+        ["xpath=//input[@id='qty']", "xpath:attributes"],
+        ["xpath=//div[@id='em-product-info-basic']/div[7]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/input", "xpath:position"]
+      ],
+      "value": "-1"
+    }, {
+      "id": "fcd4ca9a-ce39-4176-a82d-9ab79a44e9e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product-addtocart-button > span > span",
+      "targets": [
+        ["css=#product-addtocart-button > span > span", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']/span/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27e97759-4319-4eac-8566-e132207c0255",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.swal-text",
+      "targets": [],
+      "value": "Số lượng sản phẩm không hợp lệ!"
+    }, {
+      "id": "6b66a48f-05c5-4eb3-b4e4-13342c2114bc",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d4f3c87e-6dec-4eac-a707-9ef83637e45f",
+    "name": "MODULE2_07",
+    "commands": [{
+      "id": "8de58a29-3a4d-4bac-8f00-1d4aee622f67",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5b66647-c4bd-4353-8e31-e678341b4532",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1036x857",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b45feb88-2c45-45be-baad-3087ec6c5363",
+      "comment": "",
+      "command": "click",
+      "target": "css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image",
+      "targets": [
+        ["css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image", "css:finder"],
+        ["xpath=//div[@id='em_fashion_new_arrivals_tab01']/div/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://nhathuocnhikhoa.vn/san-pham/novellzamel-1681792425')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b21eb058-aed7-47b2-919d-c8f3d7182387",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=product-addtocart-button",
+      "targets": [
+        ["id=product-addtocart-button", "id"],
+        ["css=#product-addtocart-button", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']", "xpath:attributes"],
+        ["xpath=//div[@id='em-product-info-basic']/div[7]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm vào giỏ hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6f371da-25d0-40fe-a68e-198aa015f27f",
+      "comment": "",
+      "command": "type",
+      "target": "id=qty",
+      "targets": [
+        ["id=qty", "id"],
+        ["name=qty", "name"],
+        ["css=#qty", "css:finder"],
+        ["xpath=//input[@id='qty']", "xpath:attributes"],
+        ["xpath=//div[@id='em-product-info-basic']/div[7]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "6f8807af-8117-42cd-8300-55f74433ab0a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product-addtocart-button > span > span",
+      "targets": [
+        ["css=#product-addtocart-button > span > span", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']/span/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1d4a879-25c8-4372-a36f-22706db98896",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.swal-text",
+      "targets": [],
+      "value": "Số lượng sản phẩm không hợp lệ!"
+    }, {
+      "id": "d738c0e6-f4eb-4238-b600-641fb25d4a00",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "50e5243d-80f2-4bc0-815c-b6bbb761eafb",
+    "name": "MODULE2_08",
+    "commands": [{
+      "id": "97878869-5bca-4850-86c0-3b4042f10c57",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d71cfa9-4154-44c9-98e3-e272d87fb558",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1036x857",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20d394bc-aaae-4bff-b4e7-ec709940c426",
+      "comment": "",
+      "command": "click",
+      "target": "css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image",
+      "targets": [
+        ["css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image", "css:finder"],
+        ["xpath=//div[@id='em_fashion_new_arrivals_tab01']/div/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://nhathuocnhikhoa.vn/san-pham/novellzamel-1681792425')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ea173af-4f87-48f7-aaa7-800268c236b7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=product-addtocart-button",
+      "targets": [
+        ["id=product-addtocart-button", "id"],
+        ["css=#product-addtocart-button", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']", "xpath:attributes"],
+        ["xpath=//div[@id='em-product-info-basic']/div[7]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm vào giỏ hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31e31052-48d8-4e30-93e1-e7b7b8e83bdb",
+      "comment": "",
+      "command": "type",
+      "target": "id=qty",
+      "targets": [
+        ["id=qty", "id"],
+        ["name=qty", "name"],
+        ["css=#qty", "css:finder"],
+        ["xpath=//input[@id='qty']", "xpath:attributes"],
+        ["xpath=//div[@id='em-product-info-basic']/div[7]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/input", "xpath:position"]
+      ],
+      "value": "+10"
+    }, {
+      "id": "ab8a0ad6-ee3f-4e81-8b9b-c3973999c9a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product-addtocart-button > span > span",
+      "targets": [
+        ["css=#product-addtocart-button > span > span", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']/span/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5380f5ae-8620-4cff-ab9c-eb719646e7c2",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.swal-text",
+      "targets": [],
+      "value": "Sản phẩm của bạn đã được thêm vào giỏ hàng"
+    }, {
+      "id": "458b393d-f66f-4072-97a5-09e0fbc9005f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7b1c7731-4d40-4c35-b1ca-b90b655a630d",
+    "name": "MODULE2_09",
+    "commands": [{
+      "id": "6d40e22e-6e65-4084-aa2d-4db2373a2c87",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da0f595d-bfe7-4f3d-a3ff-81d75d7fa4c9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1036x857",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4852bb3f-6653-478a-b494-75ebcbea343a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image",
+      "targets": [
+        ["css=#em_fashion_new_arrivals_tab01 .item:nth-child(1) .product-image", "css:finder"],
+        ["xpath=//div[@id='em_fashion_new_arrivals_tab01']/div/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://nhathuocnhikhoa.vn/san-pham/novellzamel-1681792425')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div/div/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76ce66aa-544f-4319-8ae6-421de225e82e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=product-addtocart-button",
+      "targets": [
+        ["id=product-addtocart-button", "id"],
+        ["css=#product-addtocart-button", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']", "xpath:attributes"],
+        ["xpath=//div[@id='em-product-info-basic']/div[7]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Thêm vào giỏ hàng')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb6ca49c-badd-4c1f-a512-51ccbf095f53",
+      "comment": "",
+      "command": "type",
+      "target": "id=qty",
+      "targets": [
+        ["id=qty", "id"],
+        ["name=qty", "name"],
+        ["css=#qty", "css:finder"],
+        ["xpath=//input[@id='qty']", "xpath:attributes"],
+        ["xpath=//div[@id='em-product-info-basic']/div[7]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/input", "xpath:position"]
+      ],
+      "value": "1.5"
+    }, {
+      "id": "397cba08-e3ea-45f3-a2a8-719c71afe49e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product-addtocart-button > span > span",
+      "targets": [
+        ["css=#product-addtocart-button > span > span", "css:finder"],
+        ["xpath=//button[@id='product-addtocart-button']/span/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dadbeac3-7ad5-44e0-b01c-50c5ed33ae78",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.swal-text",
+      "targets": [],
+      "value": "Số lượng sản phẩm không hợp lệ!"
+    }, {
+      "id": "e4e9496a-644d-4727-8d4e-0a2e200de510",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "41b76bd7-736d-41ac-b3a5-a2610640ec99",
+    "name": "MODULE3_01",
+    "commands": [{
+      "id": "e1092789-8179-4507-a5d4-92c735b5154d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c9a0111-5749-4dc6-9e8c-48280aa233eb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52f04797-6faa-40d8-b24c-65a4177c642b",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Đăng nhập", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Đăng nhập')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/login')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afd781ef-d76b-47b8-98a0-31da63e54ccb",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul[2]/li/div/input", "xpath:idRelative"],
+        ["xpath=//li/div/input", "xpath:position"]
+      ],
+      "value": "0978478178"
+    }, {
+      "id": "12cbe5f5-eb56-49a6-95ec-555027702f70",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div/ul[2]/li[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li[2]/div/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "4716cd2e-fae1-4561-b6cb-cc84495b63a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-login > span > span",
+      "targets": [
+        ["css=.btn-login > span > span", "css:finder"],
+        ["xpath=//form[@id='login-form']/div/div[2]/div[2]/button/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c01a9a7e-c2a4-4611-8bb8-f76955fd358b",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Chào @#$%", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Chào @#$%')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Chào @#$%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fa0dacf-c64d-4ca9-af7f-f39bc160b1a7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản của tôi",
+      "targets": [
+        ["linkText=Tài khoản của tôi", "linkText"],
+        ["css=.form-menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tài khoản của tôi')]", "xpath:link"],
+        ["xpath=//div[@id='em-account-login-form']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/my/account/4')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Tài khoản của tôi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "04bfe005-459a-4073-984d-8b2c5ada1a22",
+      "comment": "",
+      "command": "type",
+      "target": "id=getName",
+      "targets": [],
+      "value": "test"
+    }, {
+      "id": "3a74881a-b065-4f5d-b431-dce0b076fe14",
+      "comment": "",
+      "command": "type",
+      "target": "id=getAddress",
+      "targets": [],
+      "value": "18 P. Viên, Đông Ngạc, Bắc Từ Liêm, Hà Nội 100000"
+    }, {
+      "id": "d902b35c-b4c6-406d-9c42-4761589e52b4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span > span",
+      "targets": [
+        ["css=.btn > span > span", "css:finder"],
+        ["xpath=//div[2]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "228639bf-eac9-4b88-a245-0a627ee3601f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert li",
+      "targets": [],
+      "value": "Thông tin tài khoản đã được cập nhật"
+    }, {
+      "id": "efa264dd-6677-43a8-b25e-da5f2e0415bb",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e1a05ed5-d1c6-4232-857e-e381b141174b",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=Đăng xuất",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "261c68c4-fa2b-45f2-b31f-e02b92d2cde9",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "fe91798c-5f35-4723-a02d-03bdc69660e5",
+    "name": "MODULE3_02",
+    "commands": [{
+      "id": "711919b2-d7e2-4264-9eb3-d997a42a9750",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7d99d8e-58ab-4343-9ffe-13c59326cc66",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x685",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97f4e650-cedd-4ecd-a1d8-96ed1921b95f",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfa041ff-fdcc-49f2-83f0-f169e0784ffd",
+      "comment": "",
+      "command": "//type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "0978478178"
+    }, {
+      "id": "c9d36936-ea02-4f40-87ff-c3f5eb6f9949",
+      "comment": "",
+      "command": "//type",
+      "target": "id=password",
+      "targets": [],
+      "value": "12345678"
+    }, {
+      "id": "5b3741c4-6b16-4b0c-9c24-e1960b1bf7de",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.btn-login > span > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "493c7fdb-5898-44b6-bd21-c5206a23a79a",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Chào @#$%", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Chào @#$%')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Chào @#$%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbd73e40-e9d3-4574-860f-6b1d86579dd1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản của tôi",
+      "targets": [
+        ["linkText=Tài khoản của tôi", "linkText"],
+        ["css=.form-menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tài khoản của tôi')]", "xpath:link"],
+        ["xpath=//div[@id='em-account-login-form']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/my/account/4')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Tài khoản của tôi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a759bc1-c510-43eb-8092-2eff99057534",
+      "comment": "",
+      "command": "//type",
+      "target": "id=getName",
+      "targets": [],
+      "value": "test"
+    }, {
+      "id": "2eb5bb1a-8412-461a-bfb7-cb8b7bf9a1a1",
+      "comment": "",
+      "command": "//type",
+      "target": "id=getAddress",
+      "targets": [],
+      "value": "Hà Nội"
+    }, {
+      "id": "cc9b494f-ba73-4ec8-9c0d-2a5a93341a7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span > span",
+      "targets": [
+        ["css=.btn > span > span", "css:finder"],
+        ["xpath=//div[2]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89a0563d-d56e-4fca-9e2e-a9414cf9b38c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert li",
+      "targets": [],
+      "value": "Thông tin tài khoản đã được cập nhật"
+    }, {
+      "id": "02541a37-a37a-48fb-ae34-e1ec9c20e68d",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4791bc41-de53-4349-bd4e-c8976519969b",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=Đăng xuất",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "510b356a-2aea-4051-ae14-0c82e057a95d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "20abd331-90c4-4b36-b022-051894803bb4",
+    "name": "MODULE3_03",
+    "commands": [{
+      "id": "42efed7a-5843-43b2-b66d-e6dd2f7da159",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1b7188f-0ab2-452b-9376-f44cdae788ca",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x685",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6974c13-57e3-4199-9786-f37ccdcdc665",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04646694-440f-4c06-9a57-dc9900ef5a3f",
+      "comment": "",
+      "command": "//type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "0978478178"
+    }, {
+      "id": "5bb26dcf-786a-4d88-9059-09dbdb421be0",
+      "comment": "",
+      "command": "//type",
+      "target": "id=password",
+      "targets": [],
+      "value": "12345678"
+    }, {
+      "id": "600f287d-67d1-4ab9-be89-cb598c45747e",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.btn-login > span > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0afc78de-6bda-43c5-81d0-6af979beef51",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Chào @#$%", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Chào @#$%')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Chào @#$%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a629018-5f82-4ce5-9614-4e05a5af64a1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản của tôi",
+      "targets": [
+        ["linkText=Tài khoản của tôi", "linkText"],
+        ["css=.form-menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tài khoản của tôi')]", "xpath:link"],
+        ["xpath=//div[@id='em-account-login-form']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/my/account/4')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Tài khoản của tôi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46bcba10-6b7f-448d-9b40-9e41a10f1d7e",
+      "comment": "",
+      "command": "type",
+      "target": "id=getName",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "71cbb373-0fd6-4341-8acf-2071f6d6d6ff",
+      "comment": "",
+      "command": "type",
+      "target": "id=getAddress",
+      "targets": [],
+      "value": "Hà Nội"
+    }, {
+      "id": "87660b7f-00f0-4987-92a6-42922d1836f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span > span",
+      "targets": [
+        ["css=.btn > span > span", "css:finder"],
+        ["xpath=//div[2]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af4374c3-ed18-40d1-90b3-c6fe7873133c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert li",
+      "targets": [],
+      "value": "Bạn chưa nhập họ tên!!"
+    }, {
+      "id": "c6c1326e-9890-4bd1-ab6e-c9486df86312",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3dcc86af-6f51-4f87-97f7-6aa05a78c50e",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=Đăng xuất",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "908fbc2b-ce5c-455a-8cf9-43af8a67a850",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e4778955-4055-4a47-9429-ea91d17e34b9",
+    "name": "MODULE3_04",
+    "commands": [{
+      "id": "9d24fcd8-fc66-4df3-bc1b-709015d3ee19",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e131f72-a0c3-4b84-bbb9-f62238457620",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x685",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb25bf9e-1da7-4c5e-9d25-eb0f6a10c64d",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5a8ff7d-1026-43d1-985b-676212bfef2b",
+      "comment": "",
+      "command": "//type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "0978478178"
+    }, {
+      "id": "a10d8bbb-d2bb-4405-b76a-dc284a5fd909",
+      "comment": "",
+      "command": "//type",
+      "target": "id=password",
+      "targets": [],
+      "value": "12345678"
+    }, {
+      "id": "5006b365-bb17-4905-b242-2b39604980d4",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.btn-login > span > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48bf82ba-1f8b-45d0-8259-aa904bc3dc5e",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Chào @#$%", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Chào @#$%')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Chào @#$%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56020f2c-e2c0-499d-8945-102b80b23b1e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản của tôi",
+      "targets": [
+        ["linkText=Tài khoản của tôi", "linkText"],
+        ["css=.form-menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tài khoản của tôi')]", "xpath:link"],
+        ["xpath=//div[@id='em-account-login-form']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/my/account/4')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Tài khoản của tôi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a633b3c7-3279-4209-b779-cd3ee1e0e323",
+      "comment": "",
+      "command": "type",
+      "target": "id=getName",
+      "targets": [],
+      "value": "     "
+    }, {
+      "id": "cf0a51a9-65b3-4576-9115-eb7e1f7dd17f",
+      "comment": "",
+      "command": "type",
+      "target": "id=getAddress",
+      "targets": [],
+      "value": "Hà Nội"
+    }, {
+      "id": "85671f26-1066-4447-9ac0-baac172a75a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span > span",
+      "targets": [
+        ["css=.btn > span > span", "css:finder"],
+        ["xpath=//div[2]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfc87baf-0b27-48aa-b7ae-32d70ba1d2dd",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert li",
+      "targets": [],
+      "value": "Bạn chưa nhập họ tên!!"
+    }, {
+      "id": "f96cece1-9dfd-4b0b-be94-6c2ea07b072b",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2c36571-765d-4d58-9da6-0e3dfe17beee",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=Đăng xuất",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5269d02-8bd3-422c-b3bf-9d6ee557216e",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "248a574f-0744-4f4e-822a-6a181bf52fe3",
+    "name": "MODULE3_05",
+    "commands": [{
+      "id": "a0c17108-09bb-4436-9b1e-5002067d9ba7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2c3daf3-b0b6-4c09-a528-e30955ed7bf9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x685",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "521b5b24-32f7-4af1-9ca4-0f1262a2143e",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9570ed0d-9e32-45ba-9bd0-e4ec28c91381",
+      "comment": "",
+      "command": "//type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "0978478178"
+    }, {
+      "id": "5fefea17-7d75-4b5f-91fd-fc1f38b2069c",
+      "comment": "",
+      "command": "//type",
+      "target": "id=password",
+      "targets": [],
+      "value": "12345678"
+    }, {
+      "id": "03926cf9-a966-412f-b4c7-960c35a4e5ab",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.btn-login > span > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c3bc847-28d0-41fc-a006-b7a09ca24f1b",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Chào @#$%", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Chào @#$%')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Chào @#$%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e0f9823-3765-4a8d-a68a-058d14c98c8a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản của tôi",
+      "targets": [
+        ["linkText=Tài khoản của tôi", "linkText"],
+        ["css=.form-menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tài khoản của tôi')]", "xpath:link"],
+        ["xpath=//div[@id='em-account-login-form']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/my/account/4')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Tài khoản của tôi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb7cb042-d6a2-491e-9efd-3f9e58657463",
+      "comment": "",
+      "command": "type",
+      "target": "id=getName",
+      "targets": [],
+      "value": "  test test  "
+    }, {
+      "id": "f81c85c7-61e6-4f2e-8052-91567a02797d",
+      "comment": "",
+      "command": "type",
+      "target": "id=getAddress",
+      "targets": [],
+      "value": "Hà Nội"
+    }, {
+      "id": "f066f4d8-a884-4dc2-a681-afa9f6199bb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span > span",
+      "targets": [
+        ["css=.btn > span > span", "css:finder"],
+        ["xpath=//div[2]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42162675-e385-4b9d-b6fb-385e7a0e9e4c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert li",
+      "targets": [],
+      "value": "Thông tin tài khoản đã được cập nhật"
+    }, {
+      "id": "0a5fe4c6-2e26-4776-91bf-c2e224f5cd78",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e7fbcac-c74b-4f0b-a6e2-38063dcedf71",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=Đăng xuất",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bb38f0a-5535-4872-926c-87b997cc4a67",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b527fbaa-c493-4491-b583-a1e71b6c0458",
+    "name": "MODULE3_06",
+    "commands": [{
+      "id": "0ef0ffac-fadb-4760-bcc2-6fbd78e2a778",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee6d35cf-8ee5-4842-a23d-2ca9e5ef9995",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x685",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0925443d-328f-4ff4-abb8-71fb473753ad",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ecee635b-03f6-49fb-9c5d-4e5412fe53f1",
+      "comment": "",
+      "command": "//type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "0978478178"
+    }, {
+      "id": "8ddd00bf-d6eb-47d7-9f0e-77508511f201",
+      "comment": "",
+      "command": "//type",
+      "target": "id=password",
+      "targets": [],
+      "value": "12345678"
+    }, {
+      "id": "65bf40b9-93d4-481b-b4ff-8122a2654fde",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.btn-login > span > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35aa467a-53dc-42dd-8d0c-0c4d041cf41c",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Chào @#$%", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Chào @#$%')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Chào @#$%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "787b4120-b22a-4978-917e-c4af252586dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản của tôi",
+      "targets": [
+        ["linkText=Tài khoản của tôi", "linkText"],
+        ["css=.form-menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tài khoản của tôi')]", "xpath:link"],
+        ["xpath=//div[@id='em-account-login-form']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/my/account/4')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Tài khoản của tôi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "658e22fd-bb14-4e57-98d0-9239188f2e3b",
+      "comment": "",
+      "command": "type",
+      "target": "id=getName",
+      "targets": [],
+      "value": "@#$%^&*"
+    }, {
+      "id": "23b3e2e7-62c7-4853-9494-bdfec36413e5",
+      "comment": "",
+      "command": "type",
+      "target": "id=getAddress",
+      "targets": [],
+      "value": "Hà Nội"
+    }, {
+      "id": "b89995c9-84a5-4489-833c-198c4aa0e3df",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span > span",
+      "targets": [
+        ["css=.btn > span > span", "css:finder"],
+        ["xpath=//div[2]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "97db9a4c-8817-4c72-81ce-eed74d9e53ae",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert li",
+      "targets": [],
+      "value": "Bạn nhập họ tên không đúng định dạng!!"
+    }, {
+      "id": "38ab403d-ad6d-4949-867e-a7a64f455bcb",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "93675774-6761-4356-bb12-4f63f562393f",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=Đăng xuất",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04332f4a-8a99-434a-b25e-7c58af38779d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "78fe8d60-3700-4693-b78e-91c98cb18eea",
+    "name": "MODULE3_07",
+    "commands": [{
+      "id": "118c39f2-b584-47a1-a2ea-5e27bb582569",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b431407-8cb4-4788-bd6a-7809f1d84a71",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x685",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1725dc75-e42c-4c1b-b398-785501a26d84",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35a67d9b-9814-4b49-9c84-0ee6113f6ebf",
+      "comment": "",
+      "command": "//type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "0978478178"
+    }, {
+      "id": "46017396-7c9a-4b59-acf0-0e8de9d9c66d",
+      "comment": "",
+      "command": "//type",
+      "target": "id=password",
+      "targets": [],
+      "value": "12345678"
+    }, {
+      "id": "8b3fc5d3-7728-453e-b671-24272d7d69ff",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.btn-login > span > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe4e1295-12d3-43bd-a9b7-7feb7462e1ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Chào @#$%", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Chào @#$%')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Chào @#$%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a0a9542-52b6-42d8-9a12-3bdb2f606bed",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản của tôi",
+      "targets": [
+        ["linkText=Tài khoản của tôi", "linkText"],
+        ["css=.form-menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tài khoản của tôi')]", "xpath:link"],
+        ["xpath=//div[@id='em-account-login-form']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/my/account/4')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Tài khoản của tôi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "85b74631-a47c-4a76-8efc-367d4ccdc69d",
+      "comment": "",
+      "command": "type",
+      "target": "id=getName",
+      "targets": [],
+      "value": "1234567890"
+    }, {
+      "id": "972e6186-fdcb-4a97-b849-a5a550e3d408",
+      "comment": "",
+      "command": "type",
+      "target": "id=getAddress",
+      "targets": [],
+      "value": "Hà Nội"
+    }, {
+      "id": "f9b9014f-28b7-4061-9407-027bb955e5dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span > span",
+      "targets": [
+        ["css=.btn > span > span", "css:finder"],
+        ["xpath=//div[2]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbec4721-b423-407b-973f-4165961f8fe9",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert li",
+      "targets": [],
+      "value": "Bạn nhập họ tên không đúng định dạng!!"
+    }, {
+      "id": "ec6af0bd-b3fb-4df0-a648-c89760128851",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce213ae6-dcb3-498d-b3ef-80b3a7d376c4",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=Đăng xuất",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c040cec-7496-4b76-84ec-0b3a636980a3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e276e86f-3780-4165-aba9-874a43d5d0d4",
+    "name": "MODULE3_08",
+    "commands": [{
+      "id": "ad895235-c2a4-43e4-9d27-6ed3b2b18c27",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dcd1b102-f09a-4d7a-97e4-b78501dab220",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x685",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9888d2f2-d668-404d-804e-12afb05e0d6b",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c6276e3-2c9d-49f0-a4d7-0532b4c23b90",
+      "comment": "",
+      "command": "//type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "0978478178"
+    }, {
+      "id": "a3387301-8ec5-404b-8cc5-55d14f70d7ff",
+      "comment": "",
+      "command": "//type",
+      "target": "id=password",
+      "targets": [],
+      "value": "12345678"
+    }, {
+      "id": "f4adae19-2304-4283-a5b5-ae46dca7945d",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.btn-login > span > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b231b27-5ce3-4799-a8ed-0b68adc89024",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Chào @#$%", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Chào @#$%')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Chào @#$%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f915d85-f060-4468-a4a5-5028d897bdf3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản của tôi",
+      "targets": [
+        ["linkText=Tài khoản của tôi", "linkText"],
+        ["css=.form-menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tài khoản của tôi')]", "xpath:link"],
+        ["xpath=//div[@id='em-account-login-form']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/my/account/4')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Tài khoản của tôi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b28725e-7f68-4f81-803b-cbe59bbd016e",
+      "comment": "",
+      "command": "type",
+      "target": "id=getName",
+      "targets": [],
+      "value": "test"
+    }, {
+      "id": "f3d6a497-f4a7-4753-a493-40420f2d69d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=getAddress",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c8925f0-7875-429f-8bff-6b2bc42eaf59",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span > span",
+      "targets": [
+        ["css=.btn > span > span", "css:finder"],
+        ["xpath=//div[2]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b79989a5-59c1-4680-97d4-544d3a57cdc5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert li",
+      "targets": [],
+      "value": "Bạn chưa nhập địa chỉ!!"
+    }, {
+      "id": "fc67fa79-b2be-482c-9d0e-b5c5d46e718f",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f19b220f-8134-44fa-9293-dd29e61e2db3",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=Đăng xuất",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a34fda88-6cb2-44dd-8200-dee0f8273f2a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e952e4e5-d62d-403f-8af0-493b79cd9325",
+    "name": "MODULE3_09",
+    "commands": [{
+      "id": "6480d952-9a8d-4ade-ba1e-08156e70f1f9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18a428ba-736f-43e5-9736-e8f747fe9625",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x685",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "158ed715-47e9-4f29-8f18-651da00cd508",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eba2f027-fed0-4d91-8007-2c85452047ec",
+      "comment": "",
+      "command": "//type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "0978478178"
+    }, {
+      "id": "78bf8926-e1c3-47ed-ba17-ca177c8c510d",
+      "comment": "",
+      "command": "//type",
+      "target": "id=password",
+      "targets": [],
+      "value": "12345678"
+    }, {
+      "id": "9afd8a14-71de-46df-9852-6bed113102e7",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.btn-login > span > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a2a2fa3-d02f-44d6-b528-f2dcae9dbc57",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Chào @#$%", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Chào @#$%')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Chào @#$%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "18cdd3b3-6387-464b-aaa9-049514ca0a68",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản của tôi",
+      "targets": [
+        ["linkText=Tài khoản của tôi", "linkText"],
+        ["css=.form-menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tài khoản của tôi')]", "xpath:link"],
+        ["xpath=//div[@id='em-account-login-form']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/my/account/4')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Tài khoản của tôi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1f1de10-fbca-438d-af9e-befa6d52ca3d",
+      "comment": "",
+      "command": "type",
+      "target": "id=getName",
+      "targets": [],
+      "value": "test"
+    }, {
+      "id": "db841bf1-b26b-4f2a-8565-dc870f7ae611",
+      "comment": "",
+      "command": "type",
+      "target": "id=getAddress",
+      "targets": [],
+      "value": "     "
+    }, {
+      "id": "3d3fe72a-ea3e-4151-8a7d-e2a7d4fe5d3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span > span",
+      "targets": [
+        ["css=.btn > span > span", "css:finder"],
+        ["xpath=//div[2]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51c3ca6a-9de7-47b2-a941-4c2485335bcc",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert li",
+      "targets": [],
+      "value": "Bạn chưa nhập địa chỉ!!"
+    }, {
+      "id": "311cba27-e324-4b99-b1ec-816295f5e7c0",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b27ca351-96e3-4100-9ee4-e41a8d0d76fb",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=Đăng xuất",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b53a5dd9-d567-4730-8f8c-4b575d86ee79",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3aec28ca-9f1e-4a7d-a7db-ce3f23504eb5",
+    "name": "MODULE3_10",
+    "commands": [{
+      "id": "60c3ff92-eac7-4cab-b148-e0eca85382c5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20a7e912-d55a-4bc2-b914-22948252cad9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x685",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb861681-9105-4091-9b54-c884fe7e2f72",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e50e8b9b-5834-406f-9293-39209377fed1",
+      "comment": "",
+      "command": "//type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "0978478178"
+    }, {
+      "id": "10ba8aaf-5d6e-43c7-aa57-5bef99b89605",
+      "comment": "",
+      "command": "//type",
+      "target": "id=password",
+      "targets": [],
+      "value": "12345678"
+    }, {
+      "id": "99b4c084-6e50-4374-8f9a-b58044fc20f7",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.btn-login > span > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "275b3e3b-b99c-4fbf-ad0e-7b30e09168bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Chào @#$%", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Chào @#$%')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Chào @#$%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7115d0a-50ce-4370-9f20-19e01acc2b91",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản của tôi",
+      "targets": [
+        ["linkText=Tài khoản của tôi", "linkText"],
+        ["css=.form-menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tài khoản của tôi')]", "xpath:link"],
+        ["xpath=//div[@id='em-account-login-form']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/my/account/4')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Tài khoản của tôi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "df0116eb-c7ec-4643-9bd4-fc3953cbb01c",
+      "comment": "",
+      "command": "type",
+      "target": "id=getName",
+      "targets": [],
+      "value": "test"
+    }, {
+      "id": "e3235f83-efce-4b4b-862f-0eeeade098cb",
+      "comment": "",
+      "command": "type",
+      "target": "id=getAddress",
+      "targets": [],
+      "value": "  Hà Nội  "
+    }, {
+      "id": "4da79432-6c8b-4d6f-b1da-d5abe91d9742",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span > span",
+      "targets": [
+        ["css=.btn > span > span", "css:finder"],
+        ["xpath=//div[2]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d4d72fa-deea-4e6e-b1d7-5e802aaa97c5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert li",
+      "targets": [],
+      "value": "Thông tin tài khoản đã được cập nhật"
+    }, {
+      "id": "c2d5e269-af38-4671-ae5f-55e1060bbbf3",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45688a09-55e8-4bd3-947e-9b3acc67616c",
+      "comment": "",
+      "command": "//click",
+      "target": "linkText=Đăng xuất",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22c51ac3-b346-4955-a63a-7badffc7c292",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e4e067b0-c47b-4a19-90c6-f07423900717",
+    "name": "MODULE3_11",
+    "commands": [{
+      "id": "6522f8b2-8911-47f0-8b6d-5629227719d6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b10b95c-a075-4864-b982-5f8d21b57914",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x685",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7245811c-df6f-43a3-b333-55eef8636199",
+      "comment": "",
+      "command": "//click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a61f13e1-d52e-46b2-a6a7-68d541989904",
+      "comment": "",
+      "command": "//type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "0978478178"
+    }, {
+      "id": "fbdb05b8-38be-46b5-b412-58a40e478666",
+      "comment": "",
+      "command": "//type",
+      "target": "id=password",
+      "targets": [],
+      "value": "12345678"
+    }, {
+      "id": "5e124fb1-1b1f-4500-b586-2ba28f34150e",
+      "comment": "",
+      "command": "//click",
+      "target": "css=.btn-login > span > span",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6812de3-f497-4e74-8f54-619273a8f160",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [
+        ["id=link-login", "id"],
+        ["linkText=Chào @#$%", "linkText"],
+        ["css=#link-login", "css:finder"],
+        ["xpath=//a[contains(text(),'Chào @#$%')]", "xpath:link"],
+        ["xpath=//a[@id='link-login']", "xpath:attributes"],
+        ["xpath=//div[@id='em-login-link']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Chào @#$%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c63e12c-a590-4f9f-8c4a-468e8ef0bc72",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Tài khoản của tôi",
+      "targets": [
+        ["linkText=Tài khoản của tôi", "linkText"],
+        ["css=.form-menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Tài khoản của tôi')]", "xpath:link"],
+        ["xpath=//div[@id='em-account-login-form']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://nhathuocnhikhoa.vn/my/account/4')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Tài khoản của tôi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d968baa5-192a-4ccd-bf5c-47ff81a5566f",
+      "comment": "",
+      "command": "type",
+      "target": "id=getName",
+      "targets": [],
+      "value": "test"
+    }, {
+      "id": "609a9e24-e707-4517-ba3f-9b0bdbd3f8ba",
+      "comment": "",
+      "command": "type",
+      "target": "id=getAddress",
+      "targets": [],
+      "value": "@#$%^&"
+    }, {
+      "id": "938c65f0-a8d9-4899-a5ec-cf9a7c98258d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn > span > span",
+      "targets": [
+        ["css=.btn > span > span", "css:finder"],
+        ["xpath=//div[2]/div/button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b020e0a-c41f-4c5f-9d7a-b7c4f18c5979",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.alert li",
+      "targets": [],
+      "value": "Bạn nhập địa chỉ không đúng định dạng!!"
+    }, {
+      "id": "ef035906-1e2e-49c9-a8e3-59eff7864037",
+      "comment": "",
+      "command": "click",
+      "target": "id=link-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b764333f-5f53-413a-8c45-9331e036347c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Đăng xuất",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e5b748e-6ecf-48c2-998e-b8bc1f6eb95a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "be7b46d8-1c4c-470b-819d-d4e58dd78fee",
+    "name": "Đăng nhập",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4ccbe98f-e160-4adc-b59e-03dcd795c6ff", "4539ba41-dadf-4a34-a8d4-9f5bd8424329", "8d904f5c-be10-4b27-b1e8-3b7d72956151", "02cf8ad1-bd6d-4585-bc6d-8c3295caf918", "f80dd909-3e1d-488f-b2a3-905b2bd56bae", "3ac62e9b-bf3e-411c-92fc-df2824175040"]
+  }, {
+    "id": "74caa991-4081-4c43-8492-c520ab5624ef",
+    "name": "Thêm vào giỏ hàng",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bb7fd807-f9da-426c-a502-9ce25b23a68f", "4ad4ca19-a44c-49c7-984e-a5c71403810c", "d9ec34f6-443c-4de9-9819-4d71390140da", "4b01069b-a271-488e-a4e2-bcdef77585d0", "2fee939f-b0af-4a5c-9e13-23ab8a119b20", "80e8c509-3d49-4859-b8c2-4251335f160b", "d4f3c87e-6dec-4eac-a707-9ef83637e45f", "50e5243d-80f2-4bc0-815c-b6bbb761eafb", "7b1c7731-4d40-4c35-b1ca-b90b655a630d"]
+  }, {
+    "id": "734f46e5-6da3-489a-b8c9-27bf7327d1dd",
+    "name": "Thay đổi thông tin",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["41b76bd7-736d-41ac-b3a5-a2610640ec99", "fe91798c-5f35-4723-a02d-03bdc69660e5", "20abd331-90c4-4b36-b022-051894803bb4", "e4778955-4055-4a47-9429-ea91d17e34b9", "248a574f-0744-4f4e-822a-6a181bf52fe3", "b527fbaa-c493-4491-b583-a1e71b6c0458", "78fe8d60-3700-4693-b78e-91c98cb18eea", "e276e86f-3780-4165-aba9-874a43d5d0d4", "e952e4e5-d62d-403f-8af0-493b79cd9325", "3aec28ca-9f1e-4a7d-a7db-ce3f23504eb5", "e4e067b0-c47b-4a19-90c6-f07423900717"]
+  }],
+  "urls": ["https://nhathuocnhikhoa.vn/"],
+  "plugins": []
+}

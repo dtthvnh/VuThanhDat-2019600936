@@ -3083,7 +3083,7 @@
       "command": "select",
       "target": "css=#wpcf7-f12-o2 .getmotel_infor__form > div .wpcf7-select",
       "targets": [],
-      "value": "Nữ"
+      "value": "Nam"
     }, {
       "id": "c4f04d37-6524-4283-8d58-0f1dce733237",
       "comment": "select via",
